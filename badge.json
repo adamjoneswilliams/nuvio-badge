@@ -1,0 +1,289 @@
+{
+    "filters":  [
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "gr",
+                        "id":  "r-4k",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/4k.png",
+                        "isEnabled":  true,
+                        "name":  "4K",
+                        "pattern":  "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
+                        "tagColor":  "#1A1A1A",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#FFFFFF",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "gr",
+                        "id":  "r-1080",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/1080p.png",
+                        "isEnabled":  true,
+                        "name":  "1080p",
+                        "pattern":  "(?i)\\b1080[pi]?\\b",
+                        "tagColor":  "#1A1A1A",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#FFFFFF",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "gr",
+                        "id":  "r-720",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/720p.png",
+                        "isEnabled":  true,
+                        "name":  "720p",
+                        "pattern":  "(?i)\\b720[pi]?\\b",
+                        "tagColor":  "#1A1A1A",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#FFFFFF",
+                        "type":  "filter"
+                    },
+{
+                        "borderColor":  "#00000000",
+                        "groupId":  "gv",
+                        "id":  "v-imax-e",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/IMAX-enhanced.png",
+                        "isEnabled":  true,
+                        "name":  "IMAX Enhanced",
+                        "pattern":  "(?i)\\bimax[\\s._-]?enhanced\\b",
+                        "tagColor":  "#1A1A1A",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#FFFFFF",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "gv",
+                        "id":  "v-imax",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/IMAX.png",
+                        "isEnabled":  true,
+                        "name":  "IMAX",
+                        "pattern":  "(?i)^(?=.*\\bIMAX\\b)(?!.*enhanced)",
+                        "tagColor":  "#1A1A1A",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#FFFFFF",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "gv",
+                        "id":  "a-at-dv",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/atmos-vision.png",
+                        "isEnabled":  true,
+                        "name":  "Atmos+DV",
+                        "pattern":  "(?i)^(?=.*\\batmos\\b)(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)",
+                        "tagColor":  "#FFFFFF",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#000000",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "gv",
+                        "id":  "a-dv",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/vision.png",
+                        "isEnabled":  true,
+                        "name":  "DV",
+                        "pattern":  "(?i)^(?!.*\\batmos\\b).*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b",
+                        "tagColor":  "#FFFFFF",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#000000",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "gv",
+                        "id":  "v-hdr10p",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR10Plus.png",
+                        "isEnabled":  true,
+                        "name":  "HDR10+",
+                        "pattern":  "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*hdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p))",
+                        "tagColor":  "#1A1A1A",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#FFFFFF",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "gv",
+                        "id":  "v-hdr10",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR10.png",
+                        "isEnabled":  true,
+                        "name":  "HDR10",
+                        "pattern":  "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*hdr[\\s._-]?10)(?!.*hdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p))",
+                        "tagColor":  "#1A1A1A",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#FFFFFF",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "gv",
+                        "id":  "v-hdr",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR.png",
+                        "isEnabled":  true,
+                        "name":  "HDR",
+                        "pattern":  "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\bHDR\\b)(?!.*hdr[\\s._-]?10)",
+                        "tagColor":  "#1A1A1A",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#FFFFFF",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "ga",
+                        "id":  "a-at",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/atmos.png",
+                        "isEnabled":  true,
+                        "name":  "Atmos",
+                        "pattern":  "(?i)^(?=.*\\batmos\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)",
+                        "tagColor":  "#FFFFFF",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#000000",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "ga",
+                        "id":  "a-th",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/truehd.png",
+                        "isEnabled":  true,
+                        "name":  "TrueHD",
+                        "pattern":  "(?i)(?:\\btrue[ ._-]?hd\\b|^(?=.*\\batmos\\b)(?=.*\\bremux\\b)(?!.*\\b(?:true[ ._-]?hd|ddp|dd\\+|e-?ac3|eac3)\\b).+$)",
+                        "tagColor":  "#FFFFFF",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#000000",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "ga",
+                        "id":  "a-dtsx",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dtsx.png",
+                        "isEnabled":  true,
+                        "name":  "DTS:X",
+                        "pattern":  "(?i)\\bdts[-_.: ]?x\\b",
+                        "tagColor":  "#FFFFFF",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#000000",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "ga",
+                        "id":  "a-dtsma",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dtshdma.png",
+                        "isEnabled":  true,
+                        "name":  "DTS-HD MA",
+                        "pattern":  "(?i)^(?=.*\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
+                        "tagColor":  "#FFFFFF",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#000000",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "ga",
+                        "id":  "a-dtshd",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dtshd.png",
+                        "isEnabled":  true,
+                        "name":  "DTS-HD",
+                        "pattern":  "(?i)^(?=.*\\bdts[-_. ]?hd\\b)(?!.*\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
+                        "tagColor":  "#FFFFFF",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#000000",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "ga",
+                        "id":  "a-dts",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dts.png",
+                        "isEnabled":  true,
+                        "name":  "DTS",
+                        "pattern":  "(?i)^(?=.*\\bDTS\\b)(?!.*\\bdts[-_. ]?(?:hd|ma|xll|x)\\b)",
+                        "tagColor":  "#FFFFFF",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#000000",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "ga",
+                        "id":  "a-dp",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/digitalplus.png",
+                        "isEnabled":  true,
+                        "name":  "DD+",
+                        "pattern":  "(?i)^(?=.*(?:\\bddp|\\bdd\\+|\\beac-?3|\\be-?ac-?3))(?!.*\\batmos\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)",
+                        "tagColor":  "#FFFFFF",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#000000",
+                        "type":  "filter"
+                    },
+                    {
+                        "borderColor":  "#00000000",
+                        "groupId":  "ga",
+                        "id":  "a-dd",
+                        "imageURL":  "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/digital.png",
+                        "isEnabled":  true,
+                        "name":  "DD",
+                        "pattern":  "(?i)^(?=.*\\b(?:dd[25][. ][01]|dd[^p+a-z]\\b|\\bac-?3)\\b)(?!.*(?:\\bddp|\\bdd\\+|\\beac-?3|\\be-?ac-?3))(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)",
+                        "tagColor":  "#FFFFFF",
+                        "tagStyle":  "filled and bordered",
+                        "textColor":  "#000000",
+                        "type":  "filter"
+                    }
+                ],
+    "groups":  [
+                   {
+                       "borderColor":  "#00000000",
+                       "color":  "#000000",
+                       "id":  "gq",
+                       "isExpanded":  true,
+                       "name":  "Quality"
+                   },
+                   {
+                       "borderColor":  "#00000000",
+                       "color":  "#000000",
+                       "id":  "gr",
+                       "isExpanded":  true,
+                       "name":  "Resolution"
+                   },
+                   {
+                       "borderColor":  "#00000000",
+                       "color":  "#000000",
+                       "id":  "gv",
+                       "isExpanded":  true,
+                       "name":  "Visual"
+                   },
+                   {
+                       "borderColor":  "#00000000",
+                       "color":  "#000000",
+                       "id":  "ga",
+                       "isExpanded":  true,
+                       "name":  "Audio"
+                   },
+                   {
+                       "borderColor":  "#00000000",
+                       "color":  "#000000",
+                       "id":  "gc",
+                       "isExpanded":  true,
+                       "name":  "Channels"
+                   },
+                   {
+                       "borderColor":  "#00000000",
+                       "color":  "#000000",
+                       "id":  "gl",
+                       "isExpanded":  true,
+                       "name":  "Language"
+                   },
+                   {
+                       "borderColor":  "#00000000",
+                       "color":  "#000000",
+                       "id":  "gs",
+                       "isExpanded":  true,
+                       "name":  "Streaming"
+                   }
+               ]
+}
