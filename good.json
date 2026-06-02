@@ -7,7 +7,7 @@
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_4k.png",
       "isEnabled": true,
       "name": "2160p",
-      "pattern": "(?i)^(?=.*(?:\\\\b2160p?\\b|(?<![a-z0-9])4k(?![a-z0-9])|\\\\buhd\\\\b|\\\\bultra[ ._-]?hd\\\\b)).*",
+      "pattern": "(?i)^(?!.*\\b(?:1080p?|720p?|full[ ._-]?hd|fhd)\\b)(?=.*(?:\\b2160p?\\b|(?<![a-z0-9])4k(?![a-z0-9])|\\buhd\\b|\\bultra[ ._-]?hd\\b))",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
