@@ -237,45 +237,6 @@
       "type": "filter",
       "borderColor": "#00000000"
     },
-    {
-      "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
-      "id": "343880da-882c-5dd8-8686-aee04111d735",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_71.png",
-      "isEnabled": true,
-      "name": "7.1 CH",
-      "pattern": "(?i)(?=.*[^0-9][7-8][ .][0-1]\\b)(?!.*[^0-9]5[ .][0-1]\\b)(?!.*[^0-9]6[ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]|\\\\b(Stereo|Mono)\\\\b)",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#00000000"
-    },
-    {
-      "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
-      "id": "59853061-bc8f-5545-b392-644c22267ef8",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_61.png",
-      "isEnabled": true,
-      "name": "6.1 CH",
-      "pattern": "(?i)(?=.*[^0-9]6[ .][0-1]\\b)(?!.*[^0-9][7-8][ .][0-1]\\b)(?!.*[^0-9]5[ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]\\b|\\\\b(Stereo|Mono)\\\\b)",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#00000000"
-    },
-    {
-      "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
-      "id": "e3ab9d1e-9064-53ca-b405-354e40f2455a",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_51.png",
-      "isEnabled": true,
-      "name": "5.1 CH",
-      "pattern": "(?i)(?=.*[^0-9]5[ .][0-1]\\b)(?!.*[^0-9]6[ .][0-1]\\b)(?!.*[^0-9][7-8][ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]\\b|\\\\b(Stereo|Mono)\\\\b)",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#00000000"
-    }
   ],
   "groups": [
     {
