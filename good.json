@@ -4,7 +4,7 @@
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "id": "29075787-3ab6-539d-aee4-2245d93f115a",
-      "imageURL": "https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNmExZWY1ZDU0MzQwODE5MWI4ZWE5ODg2ZGU5ZWQ4NmU6ZmlsZV8wMDAwMDAwMGY0MzQ3MWZhOWU1ODRmNDNjZGViYzllNiIsInRzIjoiMjA2MDYiLCJwIjoicHlpIiwiY2lkIjoiMSIsInNpZyI6ImEzMzIzNDE3YmJlYjdlZDFlY2NlYjFmMzc4MmVlNjkxN2IwZDc1OGM1OGIzYWIyZmJmNGY0N2JiNjQ2Y2JmNWUiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsLCJjcyI6bnVsbCwiY2RuIjpudWxsLCJmbiI6bnVsbCwiY2QiOm51bGwsImNwIjpudWxsLCJtYSI6bnVsbH0=",
+      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_4k.png",
       "isEnabled": true,
       "name": "2160p",
       "pattern": "(?i)^(?!.*\\b(?:1080p?|720p?|full[ ._-]?hd|fhd)\\b)(?=.*(?:\\b2160p?\\b|(?<![a-z0-9])4k(?![a-z0-9])|\\buhd\\b|\\bultra[ ._-]?hd\\b))",
