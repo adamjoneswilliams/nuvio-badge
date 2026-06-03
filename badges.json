@@ -43,7 +43,7 @@
       "borderColor": "#00000000",
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "id": "550e8400-e29b-41d4-a716-446655440000-4k-ultrahd",
-      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/main/kindpng_327176.png?raw=truehttps://github.com/adamjoneswilliams/nuvio-badge/blob/main/kindpng_327176.png",
+      "imageURL": "https://github.com/adamjoneswilliams/nuvio-badge/blob/main/4KUltrahdgood.png?raw=true",
       "isEnabled": true,
       "name": "4K BLU-RAY",
       "pattern": "(?i)^(?!.*\\b(?:1080p?|720p?|full[ ._-]?hd|fhd)\\b)(?=.*(?:2160p?|4k|uhd|ultra[ ._-]?hd))(?=.*(?:bluray|blu[ ._-]?ray|bd[ ._-]?remux|remux)).*$",
