@@ -31,7 +31,7 @@
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "b-pjoavn",
       "imageURL": "https://github.com/adamjoneswilliams/nuvio-badge/blob/main/Dolby%20cinemaGood.png?raw=true",
-      "isEnabled": true,
+      "isEnabled": false,
       "name": "Dolby Cinema",
       "pattern": "(?i)^(?=.*(?:\\b(?:dv|dovi|dolby[ ._-]?vision)\\b|(?:^|[._-])dv(?:$|[._-])|(?:atmos.*true[ ._-]?hd|true[ ._-]?hd.*atmos)))(?=.*(?:\\batmos\\b|(?:\\b(?:dv|dovi|dolby[ ._-]?vision)\\b.*\\btrue[ ._-]?hd\\b|\\btrue[ ._-]?hd\\b.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)))(?=.*(?:bluray|blu[ ._-]?ray|bd[ ._-]?remux|remux)).*$",
       "tagColor": "#22000000",
