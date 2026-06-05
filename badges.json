@@ -80,24 +80,11 @@
     },
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
-      "id": "f779c5b5-d414-5e94-9012-1636a724f9a9",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10Plus.png",
-      "isEnabled": true,
-      "name": "HDR10+",
-      "pattern": "(?i)(?:^|[^a-z0-9])hdr\\s*10\\s*(?:\\+|plus|p)(?=[^a-z0-9]|$)",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#FFFFFF"
-    },
-    {
-      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "9be3e5a6-b81c-5659-b771-e2b111c2d496",
       "imageURL": "https://raw.githubusercontent.com/starkles/Nuvio-sven-badges/main/white-DV.svg",
       "isEnabled": true,
       "name": "DV",
-      "pattern": "(?i)(?:\\b(?:dv|dovi|dolby[ ._-]?vision)\\b|(?:^|[._-])dv(?:$|[._-])|(?:atmos.*true[ ._-]?hd|true[ ._-]?hd.*atmos))",
+      "pattern": "(?i)(?:\\b(?:dv|dovi|dolby[ ._-]?vision)\\b|(?:^|[._-])dv(?:$|[._-])|(?:atmos[ ._-]*true[ ._-]?hd|true[ ._-]?hd.*atmos[ ._-]?))",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -110,7 +97,20 @@
       "imageURL": "https://raw.githubusercontent.com/starkles/Nuvio-sven-badges/main/white-Atmos.svg",
       "isEnabled": true,
       "name": "ATMOS",
-      "pattern": "(?i)(?:\\batmos\\b|(?:\\b(?:dv|dovi|dolby[ ._-]?vision)\\b.*\\btrue[ ._-]?hd\\b|\\btrue[ ._-]?hd\\b.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b))",
+      "pattern": "(?i)(?:atmos|(?:(?:dv|dovi|dolby[ ._-]?vision).*(?:true[ ._-]?hd)|(?:true[ ._-]?hd).*(?:dv|dovi|dolby[ ._-]?vision)))",
+      "tagColor": "#22000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter",
+      "borderColor": "#00000000"
+    },
+    {
+      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+      "id": "f779c5b5-d414-5e94-9012-1636a724f9a9",
+      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10Plus.png",
+      "isEnabled": true,
+      "name": "HDR10+",
+      "pattern": "(?i)(?:^|[^a-z0-9])hdr\\s*10\\s*(?:\\+|plus|p)(?=[^a-z0-9]|$)",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -128,7 +128,7 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
@@ -136,12 +136,12 @@
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR.png",
       "isEnabled": true,
       "name": "HDR",
-      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[ ._-]?vision|sdr)\\b)(?!.*(?:atmos.*true[ ._-]?hd|true[ ._-]?hd.*atmos))(?!.*\\bhdr\\s*10\\s*(?:\\+|plus|p)\\b)(?!.*\\bhdr\\s*10\\b)(?:(?=.*\\bhdr\\b)|(?:(?=.*(?:2160p?|4k|uhd|ultra[ ._-]?hd))(?=.*\\b(?:bluray|remux)\\b))).+$",
+      "pattern": "(?i)^(?!.*(?:\\b(?:dovi|dolby[ ._-]?vision|sdr)\\b|(?:^|[._-])dv(?:$|[._-])|atmos.*true[ ._-]?hd|true[ ._-]?hd.*atmos))(?!.*\\bhdr\\s*10\\s*(?:\\+|plus|p)\\b)(?!.*\\bhdr\\s*10\\b)(?:(?=.*\\bhdr\\b)|(?:(?=.*(?:2160p?|4k|uhd|ultra[ ._-]?hd))(?=.*\\b(?:bluray|remux)\\b))).+$",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
@@ -154,7 +154,7 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "borderColor": "#00000000",
@@ -163,7 +163,7 @@
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_TrueHD.png",
       "isEnabled": true,
       "name": "TRUEHD",
-      "pattern": "(?i)^(?!.*(?:\\batmos\\b|(?:\\b(?:dv|dovi|dolby[ ._-]?vision)\\b.*\\btrue[ ._-]?hd\\b|\\btrue[ ._-]?hd\\b.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b))).*\\btrue[ ._-]?hd\\b",
+      "pattern": "(?i)^(?!.*(?:atmos|(?:dv|dovi|dolby[ ._-]?vision).*true[ ._-]?hd|true[ ._-]?hd.*(?:dv|dovi|dolby[ ._-]?vision))).*true[ ._-]?hd",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
