@@ -136,7 +136,7 @@
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR.png",
       "isEnabled": true,
       "name": "HDR",
-      "pattern": "(?i)^(?!.*(?:\\b(?:dovi|dolby[ ._-]?vision|sdr)\\b|(?:^|[._-])dv(?:$|[._-])|\\btrue[ ._-]?hd\\b.*\\batmos\\b|\\batmos\\b.*\\btrue[ ._-]?hd\\b))(?!.*\\bhdr\\s*10\\s*(?:\\+|plus|p)\\b)(?!.*\\bhdr\\s*10\\b)(?:(?=.*\\bhdr\\b)|(?:(?=.*(?:2160p?|4k|uhd|ultra[ ._-]?hd))(?=.*\\b(?:bluray|remux)\\b))).+$",
+      "pattern": "(?i)^(?!.*(?:\\b(?:dovi|dolby[ ._-]?vision|sdr)\\b|(?:^|[._-])dv(?:$|[._-])|true[ ._-]?hd.*atmos|atmos.*true[ ._-]?hd))(?!.*\\bhdr\\s*10\\s*(?:\\+|plus|p)\\b)(?!.*\\bhdr\\s*10\\b)(?:(?=.*\\bhdr\\b)|(?:(?=.*(?:2160p?|4k|uhd|ultra[ ._-]?hd))(?=.*\\b(?:bluray|remux)\\b))).+$",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
