@@ -30,11 +30,11 @@
       "borderColor": "#00000000",
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "id": "550e8400-e29b-41d4-a716-446655440000-4k-ultrahd",
-      "imageURL": "https://github.com/adamjoneswilliams/nuvio-badge/blob/main/4KUltrahdgood.png?raw=true",
+      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/main/4k%20Black.png",
       "isEnabled": true,
       "name": "4K BLU-RAY",
       "pattern": "(?i)^(?!.*\b(?:1080p?|720p?|full[ ._-]?hd|fhd)\b)(?=.*(?:2160p?|4k|uhd|ultra[ ._-]?hd)).*",
-      "tagColor": "#22000000",
+      "tagColor": "#FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
@@ -50,7 +50,7 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#00000000"
+      "borderColor": "#FFFFFF"
     },
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
@@ -63,20 +63,7 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#00000000"
-    },
-    {
-      "borderColor": "#00000000",
-      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
-      "id": "b-r56rs6",
-      "imageURL": "",
-      "isEnabled": false,
-      "name": "•",
-      "pattern": "(?i)\\bimax\\b",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
+      "borderColor": "#FFFFFF"
     },
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
@@ -89,38 +76,25 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#00000000"
+      "borderColor": "#FFFFFF"
     },
     {
-      "borderColor": "#00000000",
-      "groupId": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
-      "id": "b-g7pnxj",
-      "imageURL": "",
-      "isEnabled": false,
-      "name": "•",
-      "pattern": "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#00000000",
-      "groupId": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
-      "id": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_SEADEX.png",
+      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+      "id": "f779c5b5-d414-5e94-9012-1636a724f9a9",
+      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10Plus.png",
       "isEnabled": true,
-      "name": "SEADEX Release",
-      "pattern": "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)",
+      "name": "HDR10+",
+      "pattern": "(?i)(?:^|[^a-z0-9])hdr\\s*10\\s*(?:\\+|plus|p)(?=[^a-z0-9]|$)",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter"
+      "type": "filter",
+      "borderColor": "#FFFFFF"
     },
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "9be3e5a6-b81c-5659-b771-e2b111c2d496",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_DV.png",
+      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/main/DV.png",
       "isEnabled": true,
       "name": "DV",
       "pattern": "(?i)(?:\\b(?:dv|dovi|dolby[ ._-]?vision)\\b|(?:^|[._-])dv(?:$|[._-])|(?:atmos.*true[ ._-]?hd|true[ ._-]?hd.*atmos))",
@@ -133,36 +107,10 @@
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "1e376aee-96c7-53cb-87e6-ea82d34afca0",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_Atmos.png",
+      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/main/Atmos.png",
       "isEnabled": true,
       "name": "ATMOS",
       "pattern": "(?i)(?:\\batmos\\b|(?:\\b(?:dv|dovi|dolby[ ._-]?vision)\\b.*\\btrue[ ._-]?hd\\b|\\btrue[ ._-]?hd\\b.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b))",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#00000000"
-    },
-    {
-      "borderColor": "#00000000",
-      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
-      "id": "b-qi13gj",
-      "imageURL": "",
-      "isEnabled": false,
-      "name": "•",
-      "pattern": "(?i).*(?:(?:^|[^a-z0-9])hdr\\s*10\\s*(?:\\+|plus|p)(?=[^a-z0-9]|$)).*|^(?!.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b).*\\bhdr(?:\\s*10)?\\b.*",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
-      "id": "f779c5b5-d414-5e94-9012-1636a724f9a9",
-      "imageURL": "https://github.com/nobnobz/Omni-Template-Bot-Bid-Raiser/blob/main/Other/white%20regex%20tags/white_HDR10Plus.png?raw=true",
-      "isEnabled": true,
-      "name": "HDR10+",
-      "pattern": "(?i)(?:^|[^a-z0-9])hdr\\s*10\\s*(?:\\+|plus|p)(?=[^a-z0-9]|$)",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -180,7 +128,7 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#00000000"
+      "borderColor": "#FFFFFF"
     },
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
@@ -193,20 +141,7 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#00000000"
-    },
-    {
-      "borderColor": "#00000000",
-      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
-      "id": "b-41ey03",
-      "imageURL": "",
-      "isEnabled": false,
-      "name": "•",
-      "pattern": "(?i)^(?:(?=.*\\b(?:full[ ._-]?hd|fhd|1080p?|720p?)\\b)|(?=.*\\b(?:sdr)\\b))(?!.*(?:^|[^A-Za-z0-9])(?:dovi|dv|dolby[ ._-]?vision|hdr10(?:\\+|plus|p)?|hdr[ ._-]?10[ ._-]?(?:\\+|plus|p)?|hdr|hlg|10[-_. ]?bit|10b|hi10p)(?=$|[^A-Za-z0-9])).+$",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
+      "borderColor": "#FFFFFF"
     },
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
@@ -219,20 +154,7 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#00000000"
-    },
-    {
-      "borderColor": "#00000000",
-      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
-      "id": "b-vdpgmh",
-      "imageURL": "",
-      "isEnabled": false,
-      "name": "•",
-      "pattern": "(?i)(?:\\btrue[ ._-]?hd\\b(?!.*\\batmos\\b)|\\bdts[-_.: ]?x7?\\b(?![-_. ]?(?:26[456]))|\\bdts[-_. ]?(?:ma|hd[-_. ]?ma|xll)(?:\\b|\\d))(?!.*\\b(?:True[ .-]?HD|ATMOS)(?:\\b|\\d))(?!.*\\b(?:DD[P+]|e[-_. ]?ac-?3)\\b)(?!.*\\b(?:DD[^a-z+]|(?<!e-)\\bac-?3)\\b)(?!.*\\bFLAC(?:\\b|\\d))(?!.*\\bAAC(?:\\b|\\d))(?!.*\\b(?:l?)PCM(?:\\b|\\d))(?!.*dts[-. ]?(?:es|(?:hd[. ]?)?(?:hr|hi)))",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
+      "borderColor": "#FFFFFF"
     },
     {
       "borderColor": "#00000000",
@@ -241,7 +163,7 @@
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_TrueHD.png",
       "isEnabled": true,
       "name": "TRUEHD",
-      "pattern": "(?i)\\btrue[ ._-]?hd\\b(?!.*\\batmos\\b)",
+      "pattern": "(?i)^(?!.*(?:\\batmos\\b|(?:\\b(?:dv|dovi|dolby[ ._-]?vision)\\b.*\\btrue[ ._-]?hd\\b|\\btrue[ ._-]?hd\\b.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b))).*\\btrue[ ._-]?hd\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -266,12 +188,51 @@
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_dtsHDMA.png",
       "isEnabled": true,
       "name": "DTS-HD MA",
-      "pattern": "(?i)(?=.*\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d))(?!.*\\b(True[ .-]?HD|ATMOS)(\\b|\\d))(?!.*\\bDD[P+]|(e[-_. ]?ac-?3)\\b)(?!.*\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b)(?!.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bFLAC(\\b|\\d))(?!.*\\bAAC(\\b|\\d))(?!.*\\b(l?)PCM(\\b|\\d))(?!.*dts[-. ]?(es|(hd[. ]?)?(hr|hi)))",
+      "pattern": "(?i)^(?!.*\\btrue[ ._-]?hd\\b)(?=.*\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d))(?!.*\\bATMOS(\\b|\\d))(?!.*\\bDD[P+]|(e[-_. ]?ac-?3)\\b)(?!.*\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b)(?!.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bFLAC(\\b|\\d))(?!.*\\bAAC(\\b|\\d))(?!.*\\b(l?)PCM(\\b|\\d))(?!.*dts[-. ]?(es|(hd[. ]?)?(hr|hi)))",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
       "borderColor": "#00000000"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
+      "id": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
+      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_SEADEX.png",
+      "isEnabled": true,
+      "name": "SEADEX Release",
+      "pattern": "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)",
+      "tagColor": "#22000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
+      "id": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f-7-1-ch",
+      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/colored%20regex%20tags/71.png",
+      "isEnabled": true,
+      "name": "7.1 CH",
+      "pattern": "(?i)(?:(?=.*(?<!\\d)[78][. ]1\\b)|(?=.*\\bTrueHD\\b))(?:(?!.*(?<!\\d)[1-6][. ]1\\b)|(?=.*(?<!\\d)[78][. ]1\\b)|(?=.*\\bTrueHD\\b))(?!.*\\b(Stereo|Mono)\\b).*",
+      "tagColor": "#22000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
+      "id": "550e8400-e29b-41d4-a716-446655440000-5-1-ch",
+      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/colored%20regex%20tags/51.png",
+      "isEnabled": true,
+      "name": "5.1 CH",
+      "pattern": "(?i)^(?!.*(?<!\\d)[78][. ]1\\b)(?!.*\\bTrueHD\\b)(?:(?=.*(?<!\\d)5[. ]1\\b)|(?!.*(?<!\\d)[5-6][. ]1\\b)(?!.*\\b(Stereo|Mono)\\b)).*",
+      "tagColor": "#22000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
     }
   ]
 }
