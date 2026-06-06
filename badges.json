@@ -81,7 +81,7 @@
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "9be3e5a6-b81c-5659-b771-e2b111c2d496",
-      "imageURL": "https://raw.githubusercontent.com/starkles/Nuvio-sven-badges/main/white-DV.svg",
+      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/DV.png",
       "isEnabled": true,
       "name": "DV",
       "pattern": "(?i)\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b",
@@ -94,7 +94,7 @@
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "1e376aee-96c7-53cb-87e6-ea82d34afca0",
-      "imageURL": "https://raw.githubusercontent.com/starkles/Nuvio-sven-badges/main/white-Atmos.svg",
+      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/Atmos.png",
       "isEnabled": true,
       "name": "ATMOS",
       "pattern": "(?i)(?:atmos|(?:(?:dv|dovi|dolby[ ._-]?vision).*(?:true[ ._-]?hd)|(?:true[ ._-]?hd).*(?:dv|dovi|dolby[ ._-]?vision)))",
