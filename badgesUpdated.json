@@ -98,7 +98,7 @@
       "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/dvatmos.png",
       "isEnabled": true,
       "name": "DV & Atmos",
-      "pattern": "(?i)^(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*(?:atmos|true[ ._-]?hd)).*",
+      "pattern": "(?i)^(?=.*\\\\b(?:dv|dovi|dolby[\\\\s._-]?vision)\\\\b)(?=.*(?:atmos|true[ ._-]?hd)).*|(?i)^(?=.*(?:true[ ._-]?hd))(?=.*(?:atmos)).*",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
