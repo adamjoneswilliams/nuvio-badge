@@ -136,7 +136,7 @@
       "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/Atmos.png",
       "isEnabled": true,
       "name": "ATMOS",
-      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b).*atmos",
+      "pattern": "(?i)^(?!.*\\\\b(?:dv|dovi|dolby[\\\\s._-]?vision)\\\\b)(?!.*true[ ._-]?hd).*atmos",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
