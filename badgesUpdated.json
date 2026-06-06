@@ -95,7 +95,7 @@
       "borderColor": "#00000000",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8-dv-atmos",
-      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/DVAtmosFixedFIonal.png",
+      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/dvatmos.png",
       "isEnabled": true,
       "name": "DV & Atmos",
       "pattern": "(?i)^(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*(?:atmos|true[ ._-]?hd)).*",
