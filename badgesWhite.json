@@ -213,7 +213,7 @@
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/regex%20tags/Atmos.png",
       "isEnabled": true,
       "name": "Atmos",
-      "pattern": "(?i)^(?!.*\\btrue[ _\\.\\-]?hd\\b).*\\batmos\\b.*$",
+      "pattern": "(?i)(?:\batmos\b|(?=.*\b(?:dv|dovi|dolby[ ._-]?vision)\b)(?=.*\btrue[ ._-]?hd\b))",
       "tagColor": "#FFFFFF",
       "tagStyle": "filled",
       "textColor": "#000000",
