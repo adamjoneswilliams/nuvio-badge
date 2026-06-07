@@ -21,7 +21,7 @@
   ],
   "filters": [
     {
-      "borderColor": "#00000000",
+      "borderColor": "#FFFFFF",
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "id": "550e8400-e29b-41d4-a716-446655440000-4k-ultrahd",
       "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/4492f57295c6b5b0bca82c8d415c3a9b64c2d641/4k%20badge3.png",
@@ -44,7 +44,7 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#00000000"
+      "borderColor": "#FFFFFF"
     },
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
@@ -57,28 +57,15 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#00000000"
+      "borderColor": "#FFFFFF"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#FFFFFF",
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "id": "b-8p24rz",
       "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/4492f57295c6b5b0bca82c8d415c3a9b64c2d641/bluray2.png",
       "isEnabled": true,
       "name": "BLU-RAY",
-      "pattern": "(?i)\\b(?:remux|blu[-_. ]?ray|b[rd][-_. ]?rip)\\b",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#00000000",
-      "groupId": "550e8400-e29b-41d4-a716-446655440000",
-      "id": "b-q0j6io",
-      "imageURL": "https://github.com/adamjoneswilliams/nuvio-badge/blob/ecdd147197f2d229b971a0f7263a02e6a84b8f1e/vecteezy_geometric-design-element_21048718.png?raw=true",
-      "isEnabled": true,
-      "name": "BLU-RAY Seperate",
       "pattern": "(?i)\\b(?:remux|blu[-_. ]?ray|b[rd][-_. ]?rip)\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
@@ -102,7 +89,7 @@
       "borderColor": "#00000000",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8-dv-atmos",
-      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/dvatmos2.png",
+      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/DVAtmosLine.png",
       "isEnabled": true,
       "name": "DV & Atmos",
       "pattern": "(?i)^(?=.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)(?=.*\\b(?:atmos|true[ ._-]?hd)\\b).*",
@@ -114,7 +101,7 @@
     {
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "9be3e5a6-b81c-5659-b771-e2b111c2d496",
-      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/DV.png",
+      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/visionLine.png",
       "isEnabled": true,
       "name": "DV",
       "pattern": "(?i)^(?!.*atmos)(?!.*true[ ._-]?hd).*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b",
@@ -154,7 +141,7 @@
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "40c288b5-c99c-52fa-82a0-a17fa55f2f37",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10.png",
-      "isEnabled": true,
+      "isEnabled": false,
       "name": "HDR10",
       "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*hdr[\\s._-]?10)(?!.*hdr[\\s._-]?10[\\s._-]?(?:\\\\+|plus|p))",
       "tagColor": "#22000000",
@@ -192,7 +179,7 @@
     {
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "1e376aee-96c7-53cb-87e6-ea82d34afca0",
-      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/Atmos.png",
+      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/atmosLine.png",
       "isEnabled": true,
       "name": "ATMOS",
       "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?!.*?\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b.*?\\btrue[ ._-]?hd\\b)(?!.*?\\btrue[ ._-]?hd\\b.*?\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b).*atmos",
