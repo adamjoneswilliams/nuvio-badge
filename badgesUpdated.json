@@ -24,7 +24,7 @@
       "borderColor": "#FFFFFF",
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "id": "550e8400-e29b-41d4-a716-446655440000-4k-ultrahd",
-      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/4492f57295c6b5b0bca82c8d415c3a9b64c2d641/4k%20badge3.png",
+      "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/4kULTRAHDgood2.png",
       "isEnabled": true,
       "name": "4K",
       "pattern": "(?i)^(?!.*\b(?:1080p?|720p?|full[ ._-]?hd|fhd)\b)(?=.*(?:2160p?|4k|uhd|ultra[ ._-]?hd)).*",
