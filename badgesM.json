@@ -34,7 +34,7 @@
       "tagStyle": "transparent",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#00000000"
+      "borderColor": "#FFFFFF"
     },
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
@@ -47,7 +47,7 @@
       "tagStyle": "transparent",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#00000000"
+      "borderColor": "#FFFFFF"
     },
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
@@ -60,7 +60,7 @@
       "tagStyle": "transparent",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#00000000"
+      "borderColor": "#FFFFFF"
     },
     {
       "id": "q-r",
