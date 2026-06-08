@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "color": "#4ECDC4",
+      "color": "#00000000",
       "id": "550e8400-e29b-41d4-a716-446655440000",
       "isExpanded": true,
       "name": "Resolution",
@@ -24,7 +24,6 @@
   ],
   "filters": [
     {
-      "borderColor": "#FFFFFF",
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "id": "550e8400-e29b-41d4-a716-446655440000-4k-ultrahd",
       "imageURL": "https://raw.githubusercontent.com/starkles/Nuvio-sven-badges/refs/heads/main/white-4k.png",
@@ -34,7 +33,8 @@
       "tagColor": "#00000000",
       "tagStyle": "transparent",
       "textColor": "#FFFFFF",
-      "type": "filter"
+      "type": "filter",
+      "borderColor": "#00000000"
     },
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
@@ -47,7 +47,7 @@
       "tagStyle": "transparent",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
@@ -60,43 +60,43 @@
       "tagStyle": "transparent",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "id": "q-r",
       "name": "Remux",
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/badge-bluray-over-remux-concept-white-498x150.1.png",
-      "isEnabled": true,
+      "isEnabled": false,
       "pattern": "(?i)\\b(?:bd|uhd)?remux\\b",
       "tagColor": "#00000000",
       "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
-      "tagStyle": "transparent"
+      "tagStyle": "transparent",
+      "borderColor": "#00000000"
     },
     {
       "id": "q-b",
       "name": "BluRay",
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/blurayFinal.png",
-      "isEnabled": true,
+      "isEnabled": false,
       "pattern": "(?i)^(?=.*(?:bluray|blu-ray|\\bb[dr][-_. ]?rip\\b|\\bbd(?:25|50|r|mv)?\\b))(?!.*\\b(?:bd|uhd)?remux\\b)",
       "tagColor": "#00000000",
       "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
-      "tagStyle": "transparent"
+      "tagStyle": "transparent",
+      "borderColor": "#00000000"
     },
     {
       "id": "q-w",
       "name": "WebDL",
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "imageURL": "https://raw.githubusercontent.com/adamjoneswilliams/nuvio-badge/refs/heads/main/badge-webdl-text-white-498x150.png",
-      "isEnabled": true,
+      "isEnabled": false,
       "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl|web(?![-_. ]?rip)\\b)",
       "tagColor": "#00000000",
       "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
-      "tagStyle": "transparent"
+      "tagStyle": "transparent",
+      "borderColor": "#00000000"
     },
     {
       "borderColor": "#00000000",
