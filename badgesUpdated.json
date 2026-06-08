@@ -29,8 +29,9 @@
       "name": "4K",
       "pattern": "(?i)^(?!.*\b(?:1080p?|720p?|full[ ._-]?hd|fhd)\b)(?=.*(?:2160p?|4k|uhd|ultra[ ._-]?hd)).*",
       "tagColor": "#22000000",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
+      "borderColor": "#00000000",
       "type": "filter"
     },
     {
