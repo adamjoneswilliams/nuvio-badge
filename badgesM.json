@@ -26,7 +26,7 @@
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "id": "550e8400-e29b-41d4-a716-446655440000-4k-ultrahd",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/4k.png",
+      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/regex%20tags/4k.png",
       "isEnabled": true,
       "name": "4K",
       "pattern": "(?i)^(?!.*\b(?:1080p?|720p?|full[ ._-]?hd|fhd)\b)(?=.*(?:2160p?|4k|uhd|ultra[ ._-]?hd)).*",
@@ -39,7 +39,7 @@
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "id": "0b6cb68b-9b86-5b7b-9d90-37222bde6d14",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/1080p.png",
+      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/regex%20tags/1080p.png",
       "isEnabled": true,
       "name": "1080p",
       "pattern": "(?i)(?:\\b1080p?\\b|\\bfhd\\b|\\bfull[ ._-]?hd\\b)",
@@ -52,7 +52,7 @@
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
       "id": "0d33e380-b632-566f-a57f-89ab9137313e",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/720p.png",
+      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/regex%20tags/720p.png",
       "isEnabled": true,
       "name": "720p",
       "pattern": "(?i)\\b720p?\\b",
