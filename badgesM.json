@@ -30,11 +30,11 @@
       "isEnabled": true,
       "name": "4K",
       "pattern": "(?i)^(?!.*\b(?:1080p?|720p?|full[ ._-]?hd|fhd)\b)(?=.*(?:2160p?|4k|uhd|ultra[ ._-]?hd)).*",
-      "tagColor": "#00000000",
-      "tagStyle": "transparent",
+      "tagColor": "#FFFFFF",
+      "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
@@ -43,11 +43,11 @@
       "isEnabled": true,
       "name": "1080p",
       "pattern": "(?i)(?:\\b1080p?\\b|\\bfhd\\b|\\bfull[ ._-]?hd\\b)",
-      "tagColor": "#00000000",
-      "tagStyle": "transparent",
+      "tagColor": "#FFFFFF",
+      "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "550e8400-e29b-41d4-a716-446655440000",
@@ -56,11 +56,11 @@
       "isEnabled": true,
       "name": "720p",
       "pattern": "(?i)\\b720p?\\b",
-      "tagColor": "#00000000",
-      "tagStyle": "transparent",
+      "tagColor": "#FFFFFF",
+      "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "id": "q-r",
